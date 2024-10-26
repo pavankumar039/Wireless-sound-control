@@ -1,0 +1,51 @@
+To Run this project we need to install modules to run this project
+
+1. Mediapipe - 
+
+to install this module use command --  pip install mediapipe
+
+2. comtypes -- 
+
+to install this module use command --  pip install comtypes
+
+3. Pycaw --
+
+to install this module use command -- pip install pycaw
+
+1. Mediapipe --
+MediaPipe is a cross-platform, open-source framework developed by Google for building multimodal machine learning pipelines. It simplifies creating applications that process and analyze sensory data like video, audio, and images. MediaPipe is highly popular for tasks involving computer vision and gesture recognition due to its efficiency and ease of use.
+
+Key Features of MediaPipe
+Pre-built Solutions: MediaPipe provides several ready-to-use ML models for popular tasks:
+
+Hand Tracking: Real-time hand detection and landmark tracking.
+Face Mesh: High-precision 3D face landmark detection.
+Pose Estimation: Full-body pose tracking.
+Object Detection: Detecting objects in images or video streams.
+Hair Segmentation: Background removal or hair segmentation in video.
+Cross-Platform: MediaPipe can run on various devices and platforms, including Android, iOS, web, and desktop (Windows, macOS, and Linux).
+
+Real-Time Performance: Optimized for fast processing speeds, MediaPipe is highly efficient, enabling real-time performance on a variety of devices.
+
+Customizable Pipelines: MediaPipe allows you to build custom pipelines by combining different building blocks, so you can create unique, complex solutions.
+2. comtypes --
+comtypes is a Python library that provides a way to interact with COM (Component Object Model) objects in Windows. COM is a Microsoft framework that allows different software components to communicate, enabling reuse and dynamic object creation in Windows applications.
+
+With comtypes, you can:
+
+Access Windows APIs: Control and manage various parts of the Windows operating system that expose COM interfaces. This includes tasks like controlling audio settings, accessing file properties, automating Office applications (like Excel and Word), and more.
+Automate Windows Applications: comtypes enables Python scripts to control applications that provide COM interfaces, automating tasks within them.
+Work with Audio and Video: Often used alongside libraries like pycaw for managing audio properties, comtypes facilitates control of audio sessions and device endpoints.
+How comtypes Works
+comtypes uses Python’s dynamic typing to automatically create wrapper classes for COM interfaces and methods, so you don’t need to manually define each method. Instead, you can interact with COM objects as if they were native Python objects, which simplifies working with Windows components.
+3 pycaw --
+pycaw (Python Core Audio Windows) is a Python library that provides a convenient way to interact 
+with the Windows Core Audio API. It allows you to control and interact with the system's audio on Windows, 
+such as adjusting volume, muting/unmuting, and managing audio devices.
+
+Some key functionalities provided by pycaw include:
+
+Volume Control: Adjust the volume of individual applications or the system master volume.
+Device Management: Enumerate and access different audio devices, such as speakers, headphones, and microphones.
+Audio Session Control: Manage audio sessions for individual applications, allowing more fine-grained audio control.
+

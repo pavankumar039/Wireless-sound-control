@@ -1,0 +1,8 @@
+ hand-gesture volume control application that uses MediaPipe for hand tracking, OpenCV for video processing, and pycaw to control the system volume on Windows. The code essentially captures hand movements in front of a camera, calculates the distance between two landmarks on the hand, and maps that distance to the system volume level.
+
+Here’s a breakdown of how it works and some areas to improve the flow:
+
+Capture Hand Landmarks: The code uses MediaPipe's hand-tracking solution to capture hand landmarks from the webcam feed.
+Calculate Distance Between Points: The distance between the tips of the thumb and index finger is calculated. This distance is used to control the volume.
+Map Distance to Volume: The calculated distance is mapped to a volume range using np.interp(), then pycaw sets this volume on the system.
+Visual Feedback: Visual markers are drawn on the camera feed, showing the hand landmarks and volume level, allowing for a more interactive experience.
